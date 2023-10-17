@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0 auto;
     min-width: 1000px;
@@ -43,3 +43,67 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  html{
+    font-size: 10px;
+    font-family: monospace;
+  }
+
+  h1, h2 {
+    font-family:  'Courier New', Courier, monospace,sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3.1rem;
+  }
+
+  section h2 + p {
+    text-indent: 20px;
+  }
+  p, li {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+  }
+
+  a[href*="http"] {
+    padding-right: 17px;
+    background: url(external-link-52.png) no-repeat 100% 0;
+    background-size: 14px 14px;
+  }
+
+  a:link, a:visited {
+    color: #a66;
+  }
+  
+/*Bottons*/
+  ul {
+    list-style-type: square;
+  }
+  ol {
+    list-style-type: lower-latin;
+  }
+  nav ul {
+    padding-left: 0;
+    margin-top: 0.8rem;
+  }
+  nav li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+  }
+  nav li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid #a66;
+  }    
