@@ -1,5 +1,34 @@
+/*
+  Style.css
+  Author: Eddison Jimenez
+  Date: October 16 2023
+  Description: css file used in Assignment3b.html
+*/
 html {
     font-family: sans-serif;
   }
-  
-  /* Your CSS below here */
+  div{
+    /*Text*/
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    line-height: 10;
+    /*The font size is 18px to the text will be bigger*/
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    /*border*/
+    border-radius: 10px;
+    border: 1px solid #990000;
+    /* background */
+    background-color: red;
+    background-image: linear-gradient(
+
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    /*Shadow*/
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
+  }
