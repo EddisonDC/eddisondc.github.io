@@ -13,8 +13,8 @@ html {
     margin: auto;
     text-align: center;
     line-height: 10;
-    /*The font size is 18px to the text will be bigger*/
-    font-size: 18px;
+    /*The font size is 1.2em because 1em = 16px*/
+    font-size: 1.2em;
     color: white;
     text-shadow: 1px 1px 1px black;
     /*border*/
@@ -23,12 +23,12 @@ html {
     /* background */
     background-color: red;
     background-image: linear-gradient(
-
       rgba(0, 0, 0, 0.2) 30%,
       rgba(0, 0, 0, 0.2) 30%,
       rgba(0, 0, 0, 0)
     );
     /*Shadow*/
     box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6), 
+      2px 2px 5px black;
   }
