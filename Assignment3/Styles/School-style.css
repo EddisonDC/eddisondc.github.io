@@ -49,8 +49,7 @@
     border-bottom: 5px solid #a66;
   }
   
-  /* WRITE YOUR CODE BELOW HERE */
-
+/* New fonts */
   @font-face {
     font-family: "flow";
     src: url(../Fonts/Flow.otf);
@@ -59,7 +58,7 @@
     font-family: "mono";
     src: url(../Fonts/nk57-monospace-cd-bk.ttf);
   }
-
+/* -------- */
   html{
     font-size: 10px;
     font-family: mono;
@@ -88,13 +87,13 @@
     letter-spacing: 0.5px;
     word-spacing: 3px;
   }
-
+/* Links in the content*/
   a[href*="http"] {
     padding-right: 17px;
-    background: url(../external-link-52.png) no-repeat 100% 0;
+    background: url(../Images/external-link-52.png) no-repeat 100% 0;
     background-size: 14px 14px;
   }
-
+/* Links */
   a {
     outline: none;
   }
