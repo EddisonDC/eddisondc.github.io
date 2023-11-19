@@ -1,3 +1,7 @@
+/**
+ * Template used by Assignment4B.html
+ */
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 

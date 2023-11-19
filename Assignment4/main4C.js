@@ -1,3 +1,7 @@
+/**
+ * Template used by Assignment4C.html
+ */
+
 // setup canvas
 
 const canvas = document.querySelector('canvas');
